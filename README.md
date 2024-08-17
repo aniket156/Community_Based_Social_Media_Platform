@@ -1,17 +1,50 @@
-## Batch - JEE with DevOps & Cloud(GCP) PT Aug 9th Batch1
-# Sprint 1 - Group A - **Munity** - A community-based social media application
-[Documentation](https://capgemini-my.sharepoint.com/:b:/p/snehal-shahaji_mane/EbtlYo74z_tCuRXVDinC6KUBKohWpKcO5f5tH-XVsYV5YQ?e=krHooq)
+# Community-Based Social Media Platform (Java Springboot Backend)
+## Overview
+This project is a community-based social media platform where users can join communities, share their thoughts, interests, and opinions, and interact with other users. Users can like posts, leave comments, view > a feed of posts from communities they have joined, and view posts from people they follow.
 
-## Made using Spring Boot, Hibernate, and PostgreSQL
+## Features
+- User Authentication and Authorization
+- Sign up, login, and logout functionality.
+- JWT-based security for APIs.
 
-Group members:
-1. Ayush Dubey
-2. Aniket Taral
-3. Saurabh Fasate
-4. Snehal Mane
-5. Shardul Shroff
+## User Profiles
+- Users can create and update their profiles.
+- Users can follow and unfollow other users.
 
-### Problem Statement
-A community-based social media where users can join communities and share their thoughts, interests, opinions which can be viewed by other users. User can like posts and leave comments. They can view a feed of posts from communities they have joined. They can also view posts from people they follow.
+## Communities
+- Users can create, join, and leave communities.
+- Users can view posts from the communities they have joined.
 
-[Presentation](https://capgemini-my.sharepoint.com/:p:/p/snehal-shahaji_mane/ESjTAD81qldMh36z0aixzosBV_bY3rbtGB8fTwmxoJj5Dg?e=5GL6b3)
+## Posts and Comments
+- Users can create, edit, and delete posts.
+- Users can like and comment on posts.
+- Users can view and interact with posts from communities they belong to or from users they follow.
+
+## Feed
+- Personalized feed showing posts from communities the user has joined and from users they follow.
+
+## Technology Stack
+- Backend: Java Spring Boot
+- Database: PostgreSQL
+- Security: Spring Security with JWT
+- Build Tool: Maven
+- ORM: Hibernate/JPA
+
+## Prerequisites
+- Java 17+
+- Maven 3+
+- PostgreSQL 13+
+
+## Installation
+Clone the repository:
+- git clone https://aniket156/Community_Based_Social_Media_Platform.git
+
+Configure PostgreSQL:
+- Create a database named social_media.
+- Update the application.properties with your PostgreSQL credentials.
+
+Example:
+- spring.datasource.url=jdbc:postgresql://localhost:5432/social_media
+- spring.datasource.username=your_db_username
+- spring.datasource.password=your_db_password
+- spring.jpa.hibernate.ddl-auto=update
