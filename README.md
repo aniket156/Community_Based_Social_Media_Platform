@@ -1,6 +1,6 @@
 # Community-Based Social Media Platform (Java Springboot Backend)
 ## Overview
-This project is a community-based social media platform where users can join communities, share their thoughts, interests, and opinions, and interact with other users. Users can like posts, leave comments, view > a feed of posts from communities they have joined, and view posts from people they follow.
+This project is a community-based social media platform where users can join communities, share their thoughts, interests, and opinions, and interact with other users. Users can like posts, leave comments, view a feed of posts from communities they have joined, and view posts from people they follow.
 
 ## Features
 - User Authentication and Authorization
